@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faugei</title>
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- font awesome cdn -->
     <link
@@ -17,5 +18,34 @@
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- header section start -->
+    <header>
+      <!-- Navbar start -->
+      <nav class="flex justify-between items-center mt-[30px] px-8">
+        <!-- Logo Section -->
+        <div class="logo-section flex items-center">
+          <img src="./img/logo.png" alt="logo" class="w-[100px]" />
+        </div>
+
+        <!-- Menu Section -->
+        <div class="menu flex items-center gap-6">
+          <ul class="hidden md:flex gap-6 items-center">
+            <li><a href="#" class="font-semibold">Home</a></li>
+            <li><a href="#" class="text-gray-400">Shop</a></li>
+            <li><a href="#" class="text-gray-400">About us</a></li>
+          </ul>
+
+          <div class="cart-section flex items-center gap-2">
+            <a href="#" class="flex items-center gap-1">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>($156)</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+    </header>
+    <!-- header section end -->
+  </body>
 </html>

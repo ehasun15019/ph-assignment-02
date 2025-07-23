@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+:root {
+  /* --padding-leftright: padding(0, 150px); */
+}
+
+body {
+  background-color: #f5f7fe;
+}
+
+/* nav start */
+nav {
+  padding: 0 150px;
+}
+/* nav end */
