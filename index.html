@@ -20,6 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <!-- header start -->
     <header>
       <!-- Navbar start -->
       <nav
@@ -74,6 +75,7 @@
       </div>
       <!-- hero end -->
     </header>
+    <!-- header end -->
 
     <!-- product start -->
     <section class="product px-[30px] md:px-[150px] py-[80px]">
@@ -215,6 +217,35 @@
       </div>
     </section>
     <!-- product end -->
+
+    <!-- banner start -->
+    <section
+      class="banner bg-[url('img/news-letter-bg.png')] bg-cover bg-center bg-no-repeat h-[533px] w-full flex flex-col justify-center items-center px-4"
+    >
+      <h2
+        class="text-white text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6"
+      >
+        Join the colorful Bunch
+      </h2>
+
+      <form
+        class="w-full max-w-[600px] flex sm:flex-row items-stretch gap-2 sm:gap-0 bg-white overflow-hidden shadow-md"
+      >
+        <input
+          type="email"
+          placeholder="Write email"
+          class="flex-grow px-4 py-3 text-gray-700 outline-none"
+        />
+        <button
+          type="submit"
+          class="bg-[#f05423] text-white px-6 py-3 font-semibold hover:bg-orange-600 transition-all"
+        >
+          Subscribe
+        </button>
+      </form>
+    </section>
+
+    <!-- banner end -->
 
     <!-- footer start -->
     <footer

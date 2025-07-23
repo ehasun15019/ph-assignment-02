@@ -38,3 +38,9 @@ body {
   cursor: pointer;
 }
 /* product end */
+
+/* banner start */
+.banner h2 {
+  font-family: var(--first-font);
+}
+/* banner end */
