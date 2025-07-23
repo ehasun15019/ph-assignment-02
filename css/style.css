@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Ovo&display=swap");
+
 @import "tailwindcss";
 
 :root {
-  /* --padding-leftright: padding(0, 150px); */
+  --orange: #e95a08;
+  --first-font: "Ovo", serif;
+  --custom-padding: 0 150px;
+  --media-padding: 0 30px;
 }
 
 body {
@@ -9,7 +14,21 @@ body {
 }
 
 /* nav start */
-nav {
-  padding: 0 150px;
-}
+/* nav {
+  padding: var(--custom-padding);
+} */
 /* nav end */
+
+/* Hero start */
+/* .hero {
+  padding: var(--custom-padding);
+} */
+
+.hero h1 {
+  font-family: var(--first-font);
+}
+
+.hero h1 span {
+  color: var(--orange);
+}
+/* Hero end */
