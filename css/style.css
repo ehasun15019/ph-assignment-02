@@ -13,17 +13,7 @@ body {
   background-color: #f5f7fe;
 }
 
-/* nav start */
-/* nav {
-  padding: var(--custom-padding);
-} */
-/* nav end */
-
-/* Hero start */
-/* .hero {
-  padding: var(--custom-padding);
-} */
-
+/* hero start */
 .hero h1 {
   font-family: var(--first-font);
 }
@@ -32,3 +22,19 @@ body {
   color: var(--orange);
 }
 /* Hero end */
+
+/* product start */
+.product h2 {
+  font-family: var(--first-font);
+}
+
+.product h2 span {
+  color: var(--orange);
+}
+
+.product-card .card button {
+  background-color: var(--orange);
+  color: white;
+  cursor: pointer;
+}
+/* product end */

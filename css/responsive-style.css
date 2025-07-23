@@ -1,7 +1,7 @@
-/* nav start */
-/* @media only screen and (max-width: 600px) {
-  nav {
-    padding: var(--media-padding);
-  }
-} */
-/* nav end */
+/* Product section start */
+@media only screen and (max-width: 460px) {
+  /* .product-card .card {
+    grid-template-columns: repeat(1, 1fr);
+  } */
+}
+/* Product section end */
