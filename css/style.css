@@ -39,6 +39,12 @@ body {
 }
 /* product end */
 
+/* flower and plant lover start */
+.plant-lover h2 {
+  font-family: var(--first-font);
+}
+/* flower and plant lover end */
+
 /* banner start */
 .banner h2 {
   font-family: var(--first-font);
