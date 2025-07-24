@@ -39,7 +39,7 @@
             <li><a href="#" class="text-gray-400">About us</a></li>
           </ul>
 
-          <div class="cart-section flex items-center gap-2">
+          <div class="cart-section">
             <a href="#" class="flex items-center gap-1">
               <i class="fa-solid fa-cart-shopping"></i>
               <span>($156)</span>
@@ -354,7 +354,6 @@
         </div>
       </div>
     </section>
-
     <!-- Latest details end -->
 
     <!-- banner start -->
@@ -478,5 +477,15 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <script>
+      const addToCartButtons = document.querySelectorAll(".card button");
+
+      addToCartButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          alert("Flower Added to Cart");
+        });
+      });
+    </script>
   </body>
 </html>
